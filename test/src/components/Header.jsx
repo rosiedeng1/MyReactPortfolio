@@ -6,4 +6,7 @@ const Header = () => {
       <h1>Portfolio: Rosie Deng </h1>
       <img src="my-logo.png" alt="My Logo" />
     </header>
-  )};
+  );
+}
+
+export default Header;
