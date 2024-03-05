@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio.jsx';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -24,7 +25,19 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <AboutMe />,
-  }
+  },
+    // {
+  //   path: '/contact',
+  //   element: <Contact />,
+  // },
+  {
+    path: '/portfolio',
+    element: <Portfolio />,
+  },
+  // {
+  //   path: '/resume',
+  //   element: <Resume />,
+  // },
 ]);
 
 // Render the RouterProvider component
