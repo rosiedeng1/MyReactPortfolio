@@ -1,13 +1,14 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom/client';
 import App from './App.jsx'
 import './index.css'
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
-import AboutMe from './pages/AboutMe';
+import AboutMe from './pages/AboutMe.jsx';
 import Portfolio from './pages/Portfolio.jsx';
+
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
     path: '/about',
     element: <AboutMe />,
   },
-    // {
+  // {
   //   path: '/contact',
   //   element: <Contact />,
   // },
