@@ -1,3 +1,8 @@
+import pic from "../assets/Travel.png"
+import pic2 from "../assets/WeatherAPI.png"
+import pic3 from "../assets/Travel.png"
+import pic4 from "../assets/RecipeProject.png"
+import pic5 from "../assets/Travel.png"
 
 
 // https://github.com/rosiedeng1/ExpressJSNoteTaker.git
@@ -6,7 +11,7 @@ export const portfolio = [
     {
       title: "Travel Assistance Application",
       subtitle: "Javascript",
-      image: "./assets/Travel.png",
+      image: pic,
       link: "https://rosiedeng1.github.io/TravelAssistanceApplication/",
       githubrepo: "https://github.com/rosiedeng1/TravelAssistanceApplication.git"
 
@@ -14,7 +19,7 @@ export const portfolio = [
     {
       title: "Weather API",
       subtitle: "Javascript, API",
-      image: "./assets/WeatherAPI.png",
+      image: pic2,
       link: "https://rosiedeng1.github.io/Weather-Dashboard-Hw-/",
       githubrepo: "https://github.com/rosiedeng1/Weather-Dashboard-Hw-.git"
 
@@ -28,11 +33,11 @@ export const portfolio = [
 
     },
     {
-      title: "Travel Assistance Application",
-      subtitle: "Javascript",
-      image: "./assets/Travel.png",
-      link: "https://rosiedeng1.github.io/TravelAssistanceApplication/",
-      githubrepo: "https://github.com/rosiedeng1/TravelAssistanceApplication.git"
+      title: "Recipe Generator",
+      subtitle: "Node, Sequelize",
+      image: pic4,
+      link: "https://culinarycanvas-ab69a55b38cf.herokuapp.com/profile",
+      githubrepo: "https://github.com/Nikitaaa95/Project-2.git"
 
     },
     {

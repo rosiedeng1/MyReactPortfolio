@@ -9,10 +9,11 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
+      <Header > </Header>
       <Nav />
-      <Header />
+      <main>  <Outlet /></main>
       <Footer />
-      <Outlet />
+  
     </>
   );
 }

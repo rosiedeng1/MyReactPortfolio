@@ -1,9 +1,15 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { portfolio } from "./data.js";
+import Header from "../components/Header.jsx"
+import Nav from "../components/Nav.jsx"
+import Footer from "../components/Footer.jsx"
 
 export default function Portfolio() {
   return (
+    <>
+    <Header></Header>
+    <Nav></Nav>
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
@@ -24,7 +30,8 @@ export default function Portfolio() {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="img"
+                //   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={portfolio.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
@@ -44,5 +51,8 @@ export default function Portfolio() {
         </div>
       </div>
     </section>
+    
+    <Footer></Footer>
+    </>
   );
 }
