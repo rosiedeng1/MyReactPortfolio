@@ -3,6 +3,29 @@
   width: 300px;
 }
 
+.photo {
+  height: 300px;
+  width: 300px;
+
+}
+
+.footer {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-family: papyrus;
+  color: rgb(160, 98, 160);
+}
+
+body {
+  background-color: #c2cae0;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
