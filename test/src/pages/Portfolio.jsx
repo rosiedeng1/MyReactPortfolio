@@ -1,3 +1,4 @@
+// This is a static page mocking a "Portfolio" section about myself where the components are imported and Portoflio is exported
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { portfolio } from "./data.js";

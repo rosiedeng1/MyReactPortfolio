@@ -11,8 +11,8 @@ export default function Resume() {
             <p>
                 <a href={resumeFile} target="_blank" rel="noopener noreferrer" download>Here is my resume to download</a>
             </p>
-            Proficiencies: Specialty medications in the realm of Oncology, Dermatology, GI, Rheumatology
-            Coding: Javascript, CSS, HTML
+            <li><a>Proficiencies: Specialty medications in the realm of Oncology, Dermatology, GI, Rheumatology</a></li>
+            <li><a>Coding: Javascript, CSS, HTML</a></li>
             <Footer></Footer>
         </>
     );
