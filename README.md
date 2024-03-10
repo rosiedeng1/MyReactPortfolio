@@ -9,7 +9,7 @@ First run npm create vite@4.4.1 in order to create your React application. Then 
 ## Usage 
 
 ![AboutMePage](test/src/assets/AboutMePage.png)
-![PortfolioPage](test/srcassets/Portfolio.png)
+![PortfolioPage](test/srcassets/PortfolioPage.png)
 ![ContactPage](test/src/assets/ContactPage.png)
 
 ## Credits 
