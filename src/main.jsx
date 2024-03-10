@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client.js';
+import ReactDOM from 'react-dom';
 import App from './App.jsx'
 import './index.css'
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
