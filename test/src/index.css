@@ -9,11 +9,11 @@
 
 }
 
-.footer {
+/* .footer {
   min-height: 40vh;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .header {
   font-family: papyrus;
@@ -25,6 +25,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
