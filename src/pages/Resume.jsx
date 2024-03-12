@@ -8,11 +8,15 @@ export default function Resume() {
         <>
             <Header></Header>
             <Nav></Nav>
-            <p>
-                <a href={resumeFile} target="_blank" rel="noopener noreferrer" download>Here is my resume to download</a>
+            <p className="resume">
+                <a href={resumeFile} target="_blank" rel="noopener noreferrer" download>Here is my resume to download :) </a>
             </p>
+            <div className="skills">
             <li><a>Proficiencies: Specialty medications in the realm of Oncology, Dermatology, GI, Rheumatology</a></li>
             <li><a>Coding: Javascript, CSS, HTML</a></li>
+            </div>
+          
+          
             <Footer></Footer>
         </>
     );

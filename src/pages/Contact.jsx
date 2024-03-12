@@ -35,7 +35,7 @@ function Contact() {
     <>
     <Header></Header>
     <Nav></Nav>
-    <div className="container text-center">
+    <div className="contact container text-center">
       <h1>
         Here is how you can contact me :) {Name} {Email}
       </h1>
@@ -67,8 +67,6 @@ function Contact() {
       </form>
 
     </div>
-
-    <div> My email is : rdeng@specialtyscript.com and my phone number is (914)-316-3854</div>
 
     <Footer></Footer>
     </>
