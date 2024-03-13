@@ -74,6 +74,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  flex-grow: 1; 
+
 }
 
 .project {
@@ -118,15 +120,30 @@ body {
   margin-left: 35%;
   padding: 20px;
 }
+
 .footer {
-  position: fixed;
+  display:block;
+/*   position: fixed;
   left: 0;
-  bottom: 20;
-  width: 100%;
+  bottom: 20; */
+  width: 110%;
   height: 30px;
   background-color:  rgb(205, 176, 206);
   color: white;
   text-align: center;
   border-top: 3px solid #2220b4;
   flex-shrink: 0;
+}
+
+footer {
+  margin-top: 10px;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
 }
