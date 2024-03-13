@@ -11,6 +11,8 @@ First run npm create vite@4.4.1 in order to create your React application. Then 
 ![AboutMePage](src/assets/AboutMePage.png)
 ![PortfolioPage](src/assets/PortfolioPage.png)
 ![ContactPage](src/assets/ContactPage.png)
+![ResumePage](src/assets/ResumePage.png)
+
 
 ## Credits 
 Tutoring session with Meg Meyers was a source of help in this assignment. ASKBCS also helped to resolve minor issues. 
